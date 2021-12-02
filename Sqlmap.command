@@ -7,7 +7,7 @@ echo -n "1 = File Else URL : "
 read U
 
 
-if [[ $USEROPTION -eq 1 ]]; 
+if [[ $U -eq 1 ]]; 
 then
 
 echo -n "Enter filename : "
